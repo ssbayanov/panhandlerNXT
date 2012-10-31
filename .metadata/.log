@@ -1,0 +1,27 @@
+!SESSION 2012-10-29 11:56:22.187 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_25
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2012-10-29 11:59:26.718
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-10-29 11:59:28.875 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_25
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Projects\GitHub\panhandlerNXT
+
+!ENTRY org.eclipse.ui 4 4 2012-10-29 12:00:34.921
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-10-29 12:00:35.875 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_25
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Projects\GitHub\panhandlerNXT
+
+!ENTRY org.eclipse.ui 4 4 2012-10-29 12:01:27.765
+!MESSAGE Invalid preference page path: XML Syntax
