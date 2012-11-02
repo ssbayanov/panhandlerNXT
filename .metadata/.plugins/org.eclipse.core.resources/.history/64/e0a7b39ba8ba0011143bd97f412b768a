@@ -1,0 +1,20 @@
+package com.tetrix.bluetooth;
+import android.widget.Button;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class PoproshaikaActivity extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        button.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) // клик на кнопку
+            {
+                RefreshTemper();
+            }
+        }
+    }
+}

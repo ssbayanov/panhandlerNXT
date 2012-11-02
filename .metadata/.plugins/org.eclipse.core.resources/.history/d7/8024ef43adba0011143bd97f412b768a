@@ -1,0 +1,43 @@
+package com.tetrix.bluetooth;
+import android.widget.Button;
+import android.bluetooth.BluetoothAdapter;
+import android.view.View;
+import android.widget.TextView;
+import android.app.Activity;
+import android.os.Bundle;
+
+
+
+public class PoproshaikaActivity extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public static final String DEVICE_NAME = "device_name";
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        final Button foward = (Button) findViewById(R.id.foward);
+        foward.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) // клик на кнопку
+            {
+            	GetRobotName();
+            }
+        });
+        final Button findBrick = (Button) findViewById(R.id.findBrick);
+        findBrick.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) // клик на кнопку
+            {
+            	FindBrick();
+            }
+        });
+    };
+    public void GetRobotName()
+    { 
+        final TextView Name = (TextView) findViewById(R.id.name);
+        Name.setText("Здесь будет имя робота"); // отображение температуры
+    };
+    public void FindBrick()
+    { 
+    	startDiscovery()//Начать поиск устройства
+    };
+    
+}

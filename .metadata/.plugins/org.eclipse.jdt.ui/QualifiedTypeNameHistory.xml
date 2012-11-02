@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.view.View.OnTouchListener"/>
+<fullyQualifiedTypeName name="android.view.SurfaceView"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.view.SurfaceHolder"/>
+<fullyQualifiedTypeName name="android.graphics.Canvas"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="android.content.res.Resources"/>
+<fullyQualifiedTypeName name="android.graphics.RectF"/>
+<fullyQualifiedTypeName name="android.graphics.Paint"/>
+<fullyQualifiedTypeName name="android.view.LayoutInflater"/>
+<fullyQualifiedTypeName name="android.widget.LinearLayout"/>
+<fullyQualifiedTypeName name="com.tetrix.bluetooth.R.string"/>
+</qualifiedTypeNameHistroy>

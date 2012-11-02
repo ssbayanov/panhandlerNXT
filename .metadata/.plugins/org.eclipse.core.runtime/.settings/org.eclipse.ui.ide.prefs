@@ -1,5 +1,11 @@
 PROBLEMS_FILTERS_MIGRATE=true
+<<<<<<< HEAD
 eclipse.preferences.version=1
 platformState=1340172651258
+=======
+TASKS_FILTERS_MIGRATE=true
+eclipse.preferences.version=1
+platformState=1340172651265
+>>>>>>> Bug fix, optimised code.
 quickStart=false
 tipsAndTricks=true

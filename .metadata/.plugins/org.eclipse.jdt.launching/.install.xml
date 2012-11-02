@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
 <entry loc="C:\Program Files\Java\jre6" stamp="1337241329093"/>
+<<<<<<< HEAD
+=======
+<entry loc="C:\Program Files\Java\jre7" stamp="1340037638387"/>
+>>>>>>> Bug fix, optimised code.
 </dirs>

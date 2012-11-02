@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+logcat.view.colsize.Application=158
+logcat.view.colsize.Level=45
+logcat.view.colsize.PID=49
+logcat.view.colsize.Tag=100
+logcat.view.colsize.Text=901
+logcat.view.colsize.Time=151
+logcat.view.filters.list=name\: 'com.tetrix.bluetooth (Session Filter)', tag\: 'BluetoothChatService', text\: '', pid\: '', app\: 'com.tetrix.bluetooth', level\: 'verbose', 
