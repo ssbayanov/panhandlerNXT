@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="@string/summary_preferences">
+    		<CheckBoxPreference
+            	android:title="@string/title_preference_show_battery"
+            	android:defaultValue="false"
+            	android:summaryOn="@string/summary_on_preference_show_battery" 
+            	android:summaryOff="@string/summary_off_preference_show_battery" />
+		</PreferenceCategory>
+		<PreferenceCategory
+                android:title="@string/robot_preferences">
+		        <EditTextPreference
+                android:name="@string/title_preference_name_program"
+                android:summary="@string/title_preference_summary_name_program"
+                android:defaultValue="Untitled-1.rxe"
+                android:title="Edit This Text"
+                android:key="editTextPref" />
+</PreferenceScreen>

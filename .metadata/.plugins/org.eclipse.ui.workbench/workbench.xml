@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="27" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="241" y="47">
 <fastViewData fastViewLocation="1024"/>
@@ -20,8 +20,8 @@
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="77" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="54" y="22"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="110" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="64" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="64" y="22"/>
@@ -44,26 +44,34 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PoproshaikaActivity.java" partName="PoproshaikaActivity.java" path="C:/Projects/GitHub/panhandlerNXT/poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java" title="PoproshaikaActivity.java" tooltip="poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="717" selectionTopPixel="102"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Projects/GitHub/panhandlerNXT/poproshaika/res/values/strings.xml" title="strings.xml" tooltip="poproshaika/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Projects/panhandlerNXT/poproshaika/res/values/strings.xml" title="strings.xml" tooltip="poproshaika/res/values/strings.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/res/values/strings.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="option_menu.xml" partName="option_menu.xml" path="C:/Projects/GitHub/panhandlerNXT/poproshaika/res/menu/option_menu.xml" title="option_menu.xml" tooltip="poproshaika/res/menu/option_menu.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/res/menu/option_menu.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="preferences.java" partName="preferences.java" path="C:/Projects/GitHub/panhandlerNXT/poproshaika/src/com/tetrix/bluetooth/preferences.java" title="preferences.java" tooltip="poproshaika/src/com/tetrix/bluetooth/preferences.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/src/com/tetrix/bluetooth/preferences.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="652" selectionTopPixel="193"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="poproshaika Manifest" path="C:/Projects/GitHub/panhandlerNXT/poproshaika/AndroidManifest.xml" title="poproshaika Manifest" tooltip="poproshaika/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="poproshaika Manifest" path="C:/Projects/panhandlerNXT/poproshaika/AndroidManifest.xml" title="poproshaika Manifest" tooltip="poproshaika/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/AndroidManifest.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PoproshaikaActivity.java" partName="PoproshaikaActivity.java" path="C:/Projects/panhandlerNXT/poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java" title="PoproshaikaActivity.java" tooltip="poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="25" selectionOffset="405" selectionTopPixel="2907"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="preferences.xml" partName="preferences.xml" path="C:/Projects/panhandlerNXT/poproshaika/res/xml/preferences.xml" title="preferences.xml" tooltip="poproshaika/res/xml/preferences.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/res/xml/preferences.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Help.java" partName="Help.java" path="C:/Projects/panhandlerNXT/poproshaika/src/com/tetrix/bluetooth/Help.java" title="Help.java" tooltip="poproshaika/src/com/tetrix/bluetooth/Help.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/src/com/tetrix/bluetooth/Help.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="471" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="help.xml" partName="help.xml" path="C:/Projects/panhandlerNXT/poproshaika/res/layout/help.xml" title="help.xml" tooltip="poproshaika/res/layout/help.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/res/layout/help.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Preferences.java" partName="Preferences.java" path="C:/Projects/panhandlerNXT/poproshaika/src/com/tetrix/bluetooth/Preferences.java" title="Preferences.java" tooltip="poproshaika/src/com/tetrix/bluetooth/Preferences.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/poproshaika/src/com/tetrix/bluetooth/Preferences.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="107" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -92,7 +100,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="com.android.ide.eclipse.editors.CommonXmlEditor" activePerspective="org.eclipse.ui.resourcePerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -147,16 +155,14 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.8194542" ratioLeft="1171" ratioRight="258" relationship="2" relative="topLeft">
+<info folder="true" part="stickyFolderRight" ratio="0.92582226" ratioLeft="1323" ratioRight="106" relationship="2" relative="topLeft">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -165,6 +171,14 @@
 <folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14482c8" ratio="0.11328125" ratioLeft="29" ratioRight="227" relationship="4" relative="bottomRight">
+<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -187,110 +201,119 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/poproshaika/res/layout/help.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/poproshaika/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/poproshaika/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/poproshaika/res/xml/preferances.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/poproshaika/res/menu/option_menu.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/poproshaika/src/com/tetrix/bluetooth/Settings"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/poproshaika/src/com/tetrix/bluetooth/Settings.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/poproshaika/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/poproshaika/src/com/tetrix/bluetooth/preferences.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/poproshaika/res/xml/preferences.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/poproshaika/src/com/tetrix/bluetooth/Help.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/poproshaika/res/xml/preferences.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/poproshaika/res/layout/help.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/poproshaika/src/com/tetrix/bluetooth/Preferences.java"/>
 </editors>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="631" y="19"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
+<item historyLabel="strings.xml" index="2"/>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="4242" y="0"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="strings.xml" index="2">
-<position info="not_deleted" x="423" y="0"/>
-</item>
-<item historyLabel="preferances.xml" index="3"/>
+<item historyLabel="strings.xml" index="2"/>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="10775" y="0"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="option_menu.xml" index="4"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
+<item historyLabel="strings.xml" index="2"/>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="10775" y="0"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="preferances.xml" index="3"/>
+<item historyLabel="help.xml" index="1"/>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="6779" y="0"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="Settings" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Settings.java" index="6">
-<position info="not_deleted" x="67" y="0"/>
-</item>
+<item historyLabel="help.xml" index="1"/>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="0" y="29"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="Settings.java" index="6">
-<position/>
+<item historyLabel="Help.java" index="3">
+<position info="not_deleted" x="179" y="0"/>
 </item>
+<item historyLabel="help.xml" index="1"/>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="0" y="29"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="Settings.java" index="6">
-<position info="not_deleted" x="328" y="0"/>
-</item>
-<item historyLabel="poproshaika Manifest" index="7"/>
+<item historyLabel="help.xml" index="1"/>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="0" y="29"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="Settings.java" index="6">
-<position info="not_deleted" x="365" y="0"/>
-</item>
-<item historyLabel="poproshaika Manifest" index="7"/>
-<item historyLabel="Settings.java" index="6">
-<position info="not_deleted" x="200" y="0"/>
-</item>
-<item historyLabel="poproshaika Manifest" index="7"/>
-<item historyLabel="Settings.java" index="6">
-<position info="not_deleted" x="200" y="0"/>
-</item>
-<item historyLabel="preferences.java" index="8">
-<position info="not_deleted" x="616" y="0"/>
-</item>
+<item historyLabel="help.xml" index="1"/>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="717" y="11"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="preferences.java" index="8">
+<item historyLabel="help.xml" index="1">
 <position info="not_deleted" x="701" y="0"/>
 </item>
+<item historyLabel="help.xml" index="5">
+<position info="not_deleted" x="239" y="0"/>
+</item>
 <item historyLabel="PoproshaikaActivity.java" index="0">
-<position info="not_deleted" x="717" y="11"/>
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item historyLabel="preferences.java" index="8">
-<position info="not_deleted" x="701" y="0"/>
+<item historyLabel="strings.xml" index="2"/>
+<item historyLabel="help.xml" index="1"/>
+<item historyLabel="preferences.xml" index="4"/>
+<item historyLabel="PoproshaikaActivity.java" index="0">
+<position info="not_deleted" x="405" y="25"/>
 </item>
-<item active="true" historyLabel="preferences.xml" index="9">
-<position/>
+<item historyLabel="strings.xml" index="2"/>
+<item historyLabel="PoproshaikaActivity.java" index="0">
+<position info="not_deleted" x="405" y="25"/>
 </item>
+<item historyLabel="Help.java" index="3">
+<position info="not_deleted" x="179" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="2"/>
+<item historyLabel="PoproshaikaActivity.java" index="0">
+<position info="not_deleted" x="405" y="25"/>
+</item>
+<item historyLabel="preferences.xml" index="4"/>
+<item historyLabel="Help.java" index="3">
+<position info="not_deleted" x="90" y="0"/>
+</item>
+<item historyLabel="PoproshaikaActivity.java" index="0">
+<position info="not_deleted" x="405" y="25"/>
+</item>
+<item historyLabel="Help.java" index="3">
+<position info="not_deleted" x="471" y="0"/>
+</item>
+<item historyLabel="Preferences.java" index="6">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="help.xml" index="1"/>
+<item historyLabel="preferences.xml" index="4"/>
+<item historyLabel="PoproshaikaActivity.java" index="0">
+<position info="not_deleted" x="405" y="25"/>
+</item>
+<item historyLabel="help.xml" index="1"/>
+<item historyLabel="Preferences.java" index="6">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="help.xml" index="1"/>
+<item historyLabel="Help.java" index="3">
+<position info="not_deleted" x="471" y="0"/>
+</item>
+<item historyLabel="preferences.xml" index="4"/>
+<item historyLabel="Help.java" index="3">
+<position info="not_deleted" x="471" y="0"/>
+</item>
+<item historyLabel="help.xml" index="1"/>
+<item historyLabel="PoproshaikaActivity.java" index="0">
+<position info="not_deleted" x="405" y="25"/>
+</item>
+<item historyLabel="Preferences.java" index="6">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="help.xml" index="1"/>
+<item historyLabel="PoproshaikaActivity.java" index="0">
+<position info="not_deleted" x="405" y="25"/>
+</item>
+<item active="true" historyLabel="strings.xml" index="2"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -308,6 +331,39 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Preferences.java" tooltip="poproshaika/src/com/tetrix/bluetooth/Preferences.java">
+<persistable path="/poproshaika/src/com/tetrix/bluetooth/Preferences.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="help.xml" tooltip="poproshaika/res/layout/help.xml">
+<persistable path="/poproshaika/res/layout/help.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DeviceListActivity.java" tooltip="poproshaika/src/com/tetrix/bluetooth/DeviceListActivity.java">
+<persistable path="/poproshaika/src/com/tetrix/bluetooth/DeviceListActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="device_list.xml" tooltip="poproshaika/res/layout/device_list.xml">
+<persistable path="/poproshaika/res/layout/device_list.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Help.java" tooltip="poproshaika/src/com/tetrix/bluetooth/Help.java">
+<persistable path="/poproshaika/src/com/tetrix/bluetooth/Help.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ContextWrapper.class" tooltip="android.content.ContextWrapper">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=poproshaika/C:\/Android\/android-sdk\/platforms\/android-10\/android.jar&lt;android.content(ContextWrapper.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="poproshaika/gen/com/tetrix/bluetooth/R.java">
+<persistable path="/poproshaika/gen/com/tetrix/bluetooth/R.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BluetoothChatService.java" tooltip="poproshaika/src/com/tetrix/bluetooth/BluetoothChatService.java">
+<persistable path="/poproshaika/src/com/tetrix/bluetooth/BluetoothChatService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="poproshaika/res/layout/main.xml">
+<persistable path="/poproshaika/res/layout/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="preferences.xml" tooltip="poproshaika/res/xml/preferences.xml">
+<persistable path="/poproshaika/res/xml/preferences.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PoproshaikaActivity.java" tooltip="poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java">
+<persistable path="/poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="poproshaika/AndroidManifest.xml">
 <persistable path="/poproshaika/AndroidManifest.xml"/>
 </file>
@@ -316,36 +372,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="preferances.xml" tooltip="poproshaika/res/xml/preferances.xml">
 <persistable path="/poproshaika/res/xml/preferances.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="poproshaika/res/values/strings.xml">
-<persistable path="/poproshaika/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Activity.class" tooltip="android.app.Activity">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=poproshaika/C:\/Android\/android-sdk\/platforms\/android-10\/android.jar&lt;android.app(Activity.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Handler.class" tooltip="android.os.Handler">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=poproshaika/C:\/Android\/android-sdk\/platforms\/android-10\/android.jar&lt;android.os(Handler.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Message.class" tooltip="android.os.Message">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=poproshaika/C:\/Android\/android-sdk\/platforms\/android-10\/android.jar&lt;android.os(Message.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PoproshaikaActivity.java" tooltip="poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java">
-<persistable path="/poproshaika/src/com/tetrix/bluetooth/PoproshaikaActivity.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Instrumentation.class" tooltip="android.app.Instrumentation">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=poproshaika/C:\/Android\/android-sdk\/platforms\/android-10\/android.jar&lt;android.app(Instrumentation.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="poproshaika/gen/com/tetrix/bluetooth/R.java">
-<persistable path="/poproshaika/gen/com/tetrix/bluetooth/R.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ThreadGroup.class" tooltip="java.lang.ThreadGroup">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=poproshaika/C:\/Qtnecessitas\/android-sdk\/platforms\/android-10\/android.jar&lt;java.lang(ThreadGroup.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="InvocationTargetException.class" tooltip="java.lang.reflect.InvocationTargetException">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=poproshaika/C:\/Qtnecessitas\/android-sdk\/platforms\/android-10\/android.jar&lt;java.lang.reflect(InvocationTargetException.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Thread.class" tooltip="java.lang.Thread">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=poproshaika/C:\/Qtnecessitas\/android-sdk\/platforms\/android-10\/android.jar&lt;java.lang(Thread.class"/>
 </file>
 </mruList>
 </workbench>

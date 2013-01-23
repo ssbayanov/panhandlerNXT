@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="@strings/summary_preferences">
+                <CheckBoxPreference
+                        android:title="@strings/title_preference_show_battery"
+                        android:defaultValue="false"
+                        android:summaryOn="summary_on_preference_show_battery"
+                        android:summaryOff="summary_off_preference_show_battery"
+                        android:key="checkboxPref" />
+        </PreferenceCategory>
+</PreferenceScreen>

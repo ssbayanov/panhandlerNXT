@@ -12,13 +12,15 @@ import android.view.View.OnTouchListener;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-//import android.
+import android.widget.ProgressBar;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Handler;
 import android.os.Message;
+import android.preference.PreferenceManager;
+import android.content.SharedPreferences;
 
 public class PoproshaikaActivity extends Activity {
 	public static final String SHARED_PREFS_NAME="preferences";
@@ -49,10 +51,15 @@ public class PoproshaikaActivity extends Activity {
 	private BluetoothChatService mChatService = null;
 	// private ArrayAdapter<String> mConversationArrayAdapter;
 
-	public TextView Name;
+	public TextView name;
+	public ProgressBar battery;
 	public Button buttonScan;
 	public boolean on;
 	public MySurfaceView Surf;
+	
+	String programName;
+	boolean showBattery;
+	
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -65,7 +72,8 @@ public class PoproshaikaActivity extends Activity {
 		Surf = new MySurfaceView(this);
 		linearlayout.addView(Surf);
 
-		Name = (TextView) findViewById(R.id.name);
+		name = (TextView) findViewById(R.id.name);
+		battery = (ProgressBar) findViewById(R.id.battery);
 
 		mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
@@ -82,7 +90,38 @@ public class PoproshaikaActivity extends Activity {
 					BluetoothAdapter.ACTION_REQUEST_ENABLE);
 					startActivityForResult(enableIntent, REQUEST_ENABLE_BT);
 		}
+		
 	};
+	
+	@Override
+	public void onStart() {
+		super.onStart();
+		
+		//get preferences
+		getPrefs();
+		
+		//
+		modInterface();
+	}
+	//update interface by change perferences
+	private void modInterface()	{
+		
+		if(!showBattery)
+			
+			battery.setVisibility(View.GONE);
+		else
+			battery.setVisibility(View.VISIBLE);
+	
+	}
+	
+	private void getPrefs() {
+        // Get the xml/preferences.xml preferences
+        SharedPreferences prefs = PreferenceManager
+                        .getDefaultSharedPreferences(getBaseContext());
+        showBattery = prefs.getBoolean("showBattery", false);
+        programName = prefs.getString("programName",
+                        "Untitled-1.rxe");
+}
 	
 	//setup buttons and Bluetooth connection
 	private void setupProgram()
@@ -178,13 +217,7 @@ public class PoproshaikaActivity extends Activity {
 	//Run program for control tetrix 
 	private void startProgramm(char[] msg) {
 		// Check that we're actually connected before trying anything
-		if (mChatService.getState() != BluetoothChatService.STATE_CONNECTED) {
-			Toast.makeText(this, R.string.not_connected, Toast.LENGTH_SHORT)
-			.show();
-			Log.e("sendMessage", "not connected");
-			return;
-		}
-
+		
 		byte[] send;
 		send = new byte[msg.length + 4];
 		send[0] = (byte) (msg.length + 2);
@@ -195,14 +228,25 @@ public class PoproshaikaActivity extends Activity {
 		for (int i = 0; i < msg.length; i++)
 			send[i + 4] = (byte) msg[i];
 		send[msg.length + 3] = 0x00;
+		
+		if(mChatService != null){
+		if (mChatService.getState() != BluetoothChatService.STATE_CONNECTED) {
+			Toast.makeText(this, R.string.not_connected, Toast.LENGTH_SHORT)
+			.show();
+			Log.e("sendMessage", "not connected");
+			return;
+		}
 
-		mChatService.write(send);
+		
+		
+		mChatService.write(send);}
+		
 		if (D)
 			Log.i("Message", "sendMessage " + send[0] + " " + (char) msg[0]
 					+ " " + (char) msg[1] + " " + (char) msg[2] + " "
 					+ (char) msg[3] + " " + (char) msg[4] + " " + (char) msg[5]
-							+ " " + (char) msg[6] + " " + (char) msg[7] + " "
-							+ (char) msg[8] + " " + (char) msg[9]);
+							+ " " + (char) msg[6] + " " + (char) msg[7]/* + " "
+							+ (char) msg[8] + " " + (char) msg[9]*/);
 	}
 
 	private final Handler mHandler = new Handler() {
@@ -298,7 +342,7 @@ public class PoproshaikaActivity extends Activity {
 				DeviceListActivity.EXTRA_DEVICE_ADDRESS);
 		// Get the BluetoothDevice object
 		BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
-		Name.setText(device.getName());
+		name.setText(device.getName());
 		mConnectedDeviceName = device.getName();
 		// Attempt to connect to the device
 
@@ -342,6 +386,11 @@ public class PoproshaikaActivity extends Activity {
 			 */
 			mChatService.stop();
 			return true;
+		case R.id.preferences:
+			Intent settingsActivity = new Intent(getBaseContext(),
+                    Preferences.class);
+			startActivity(settingsActivity);
+			return true;
 		case R.id.discoverable:
 			// Ensure this device is discoverable by others
 			ensureDiscoverable();
@@ -349,8 +398,15 @@ public class PoproshaikaActivity extends Activity {
 		case R.id.run_programm:
 			// Ensure this device is discoverable by others
 			// ensureDiscoverable();
-			char[] name = { 'n', 'x', 't', 't', 't', '.', 'r', 'x', 'e', 0x00 };
-			startProgramm(name);
+			
+			
+			//char[] name = { 'n', 'x', 't', 't', 't', '.', 'r', 'x', 'e', 0x00 };
+			startProgramm(programName.toCharArray());
+			return true;
+		case R.id.help:
+			Intent helpActivity = new Intent(getBaseContext(),
+                    Help.class);
+			startActivity(helpActivity);
 			return true;
 		}
 		return false;

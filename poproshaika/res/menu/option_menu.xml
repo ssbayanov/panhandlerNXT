@@ -24,6 +24,12 @@
           android:icon="@android:drawable/ic_menu_close_clear_cancel"
           android:title="@string/disconnect"/>
     <item android:id="@+id/discoverable"
-          android:icon="@android:drawable/ic_menu_mylocation"
+          android:icon="@android:drawable/ic_menu_view"
           android:title="@string/discoverable"/>
+    <item android:id="@+id/preferences"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:title="@string/preferences"/>
+    <item android:id="@+id/help"
+          android:icon="@android:drawable/ic_menu_help"
+          android:title="@string/help"/>
 </menu>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Управление NXT</string>
+    
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">Устройство не подключено</string>
+    <string name="bt_not_enabled">Bluetooth выключен.\n Включите его для работы</string>
+    <string name="bt_enabled">Bluetooth включен</string>  
+    <string name="bt_not_supported">Bluetooth не поддерживается</string>    
+    <string name="title_connecting">Соединение&#8230;</string>
+    <string name="title_connected_to">Соединение с <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Не удалось подключиться</string>
+    <string name="title_connection_close">Соединение разорвоно</string>
+    
+    
+    <!--  DeviceListActivity -->
+    <string name="scanning">Сканируем устройства&#8230;</string>
+    <string name="select_device">Выберите устройство для соединения</string>
+    <string name="none_paired">Нет соединённых устройств</string>
+    <string name="none_found">Устройства не найдены</string>
+    <string name="button_scan">Найти устройства</string>
+    <string name="connected_devices">Подключенные устройства</string>
+    <string name="descovered_devices">Найденные устройства</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Подключить устройсто</string>
+    <string name="run_programm">Запустить программу</string>
+    <string name="disconnect">Отключить устройсто</string>
+    <string name="discoverable">Сделать видимым</string>
+    <string name="help">Помощь</string>
+    
+    <!-- Main Layout -->
+    <string name="main_title">Программа управления NXT v1.1</string>
+    <string name="robot_name">Имя робота</string>
+    <string name="foward_left">↖</string>
+    <string name="foward">↑</string>
+    <string name="foward_right">↗</string>
+    <string name="left">←</string>
+    <string name="button_scan_off">Выкл</string>
+    <string name="button_scan_on">Вкл</string>
+    <string name="right">→</string>
+    <string name="backward_left">↙</string>
+    <string name="backward">↓</string>
+    <string name="backward_right">↘</string>
+    
+    <!-- Preferances -->
+    <string name="preferences">Настройки</string>
+    <string name="summary_preferences">Общие</string>
+    <string name="title_preference_show_battery">Отобразить заряд баттареи</string>
+    <string name="summary_on_preference_show_battery">Отображается</string>
+    <string name="summary_off_preference_show_battery">Не отображается</string>
+    <string name="robot_preferences">Робот</string>
+    <string name="title_preference_name_program">Имя программы</string>
+    <string name="title_preference_summary_name_program">Введите имя программы которую требуется запустить на роботе</string>
+    <string name="preference_edit_this_text">Имя программы</string>
+   
+    <!--  Help  -->
+    <string name="help_content">
+<b>Описание</b>\n
+Программа управления роботом Lego Mindstorms NXT основана на отправки сообщений главной программе выполняемой на блоке.\n\n 
+<b>Команды</b>\n 
+Данная программа отправляет сообщения в 1 mailbox робота следующие символы:\n 
+ ↖ - Q\n 
+↑ - W\n 
+ ↗ - E\n 
+← - A\n 
+→ - D\n 
+↙ - Z\n 
+↓ - S\n 
+↘ - C\n 
+Выкл - H\n 
+Вкл - B\n\n 
+<b>Запуск программы</b>\n 
+Через кнопку меню есть возможность запустить удалённо программу на роботе (если он подключен).\n
+В настройках данной программы доступно изменение запускаемой программы.\n\n
+<b>Заряд батареи</b>\n 
+К сожалению данная функция ещё не доступна.
+</string>
+</resources>
