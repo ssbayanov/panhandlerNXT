@@ -1,5 +1,6 @@
 package com.tetrix.bluetooth;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -388,7 +389,7 @@ public class PoproshaikaActivity extends Activity {
 			return true;
 		case R.id.preferences:
 			Intent settingsActivity = new Intent(getBaseContext(),
-                    Preferences.class);
+                    preferences.class);
 			startActivity(settingsActivity);
 			return true;
 		case R.id.discoverable:

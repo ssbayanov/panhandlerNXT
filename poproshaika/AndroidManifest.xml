@@ -24,7 +24,7 @@
             android:theme="@android:style/Theme.Dialog"
             android:configChanges="orientation|keyboardHidden" />
         
-        <activity android:label="@string/preferences" android:name=".Preferences" >
+        <activity android:label="@string/preferences" android:name=".preferences" >
             </activity>
         <activity android:label="@string/help" android:name=".Help" >
 	        </activity>
